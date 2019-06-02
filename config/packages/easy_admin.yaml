@@ -13,4 +13,4 @@ easy_admin:
             list:
                 batch_actions: ['-delete']
     design:
-        brand_color: 'red'
+        brand_color: 'blue'
