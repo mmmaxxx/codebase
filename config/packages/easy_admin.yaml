@@ -1,0 +1,16 @@
+easy_admin:
+    site_name: 'My code snippets'
+    list:
+        batch_actions: ['delete']
+    entities:
+        # List the entity class name you want to manage
+        Snippet:
+            class: App\Entity\Snippet
+            list:
+                batch_actions: ['-delete']
+        SnippetType:
+            class: App\Entity\SnippetType
+            list:
+                batch_actions: ['-delete']
+    design:
+        brand_color: 'red'
